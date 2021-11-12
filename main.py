@@ -41,7 +41,7 @@ morse_dict = {
 def translate():
     morse_list = []
     print("Welcome to the Morse Code Translator (EN)")
-    word = input("Please enter the word or a number that you want to translate into morse code: ").upper()
+    word = input("Please enter the word, sentence, or a number that you want to translate into morse code: ").upper()
     for letter in word:
         if letter not in morse_dict:
             morse_list.append(letter)
